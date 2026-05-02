@@ -1,8 +1,10 @@
 # 🧮 Precision Estimator
 
+[![GitHub](https://img.shields.io/badge/GitHub-SahSanjeev%2FPrecisionEstimator-black?logo=github)](https://github.com/SahSanjeev/PrecisionEstimator) [![Python](https://img.shields.io/badge/Python-3.7%2B-blue?logo=python)](https://www.python.org/)
+
 A streamlined Python-based construction cost estimator tailored for **Precision Build Pros**, a Tennessee-based residential and commercial contracting company. This tool calculates accurate labor and material costs across various construction services using real-world price data from Precision Build Pros’ rate sheet.
 
-Built by **sanjeev Sah** ((https://github.com/SahSanjeev)) to improve quoting speed, accuracy, and professionalism.
+Built by **sanjeev Sah** ([https://github.com/SahSanjeev](https://github.com/SahSanjeev)) to improve quoting speed, accuracy, and professionalism.
 
 ---
 
@@ -50,30 +52,34 @@ Built by **sanjeev Sah** ((https://github.com/SahSanjeev)) to improve quoting sp
 1. Clone the repository
 
 ```bash
-git clone https://github.com/giampi-ai/precision-estimator.git
-cd precision-estimator
+git clone https://github.com/SahSanjeev/PrecisionEstimator.git
+cd PrecisionEstimator
+```
 
-    Install required dependencies
+2. Install required dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-Running the Estimator
+### Running the Estimator
 
 Run the main estimator script:
 
+```bash
 python pricingestimator.py
+```
 
-Usage
+### Usage
 
 Upon running, you will be prompted to:
 
-    Select a service type (e.g., Flooring, Drywall)
-
-    Input the measurement units (square footage, linear footage, sheets)
-
-    Enter the quantity (e.g., 500 sqft)
+- Select a service type (e.g., Flooring, Drywall)
+- Input the measurement units (square footage, linear footage, sheets)
+- Enter the quantity (e.g., 500 sqft)
 
 The estimator will calculate and output an estimated price range based on the Precision Build Pros rate sheet.
+
 Example
 
 > Choose a Service: Flooring Install - LVP  
